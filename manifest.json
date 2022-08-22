@@ -1,0 +1,28 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Prime Ad Skipper | Fast Forward Ads",
+  "version": "1.2",
+  "manifest_version": 3,
+  "description": "Skip ads on Freevee.\nThis extension will detect if an ad appears in a video and fast forward the ad until it completes.",
+  "permissions": ["scripting"]
+,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Fast Forward Through Freevee Ads!",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
+  "host_permissions": [
+    "https://www.amazon.com/gp/video/*",
+    "http://www.amazon.com/gp/video/*"
+  ]
+}
