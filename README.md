@@ -15,6 +15,6 @@ This extension will detect ads in videos and fast forward them until completion 
 6. Click "Load Unpacked"
 7. Select the folder of the unzipped contents
 
-Your plugin is now install. Refresh your prime video if you have it open.
+Your plugin is now installed. Refresh your prime video if you have it open.
 
 Your ads will now fast forward when detected.
